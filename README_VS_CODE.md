@@ -330,12 +330,37 @@ python 07_dashboard_animado_gif.py
 
 ---
 
+### ▶️ Ejecución 08: Dashboard 2 de Diagnóstico Avanzado, Explicabilidad (XAI) & Elasticidad (.GIF y .PNG 16:9)
+```bash
+python 08_dashboard_avanzado_animado_gif.py
+```
+- **Comportamiento:**
+  - Despliega **6 nuevos gráficos analíticos y métricas diagnósticas avanzadas**:
+    1. *Análisis de Residuos y Homocedasticidad* con bandas de control de $\pm 2\sigma$.
+    2. *Método del Codo (Elbow Curve) e Índice Silhouette* demostrando la optimalidad matemática de $k=3$.
+    3. *Curva ROC y Área Bajo la Curva (AUC)* para la clasificación de pedidos ($AUC = 1.000$).
+    4. *Curva de Aprendizaje y Convergencia de Recompensa Q-Learning* (fases de Exploración vs. Explotación).
+    5. *Explicabilidad Forense (XAI)* contrastando clientes normales vs. anomalías (picos de 3.5x en montos y 3.8x en devoluciones).
+    6. *Curva de Elasticidad Precio-Demanda e Ingreso Óptimo* con delimitación de la zona de destrucción de margen ($>25\%$).
+  - Exporta simultáneamente la versión animada `dashboard_avanzado_machine_learning_16_9.gif` (0.73 MB) y la versión estática Ultra HD `dashboard_avanzado_machine_learning_16_9.png` (300 DPI).
+
+---
+
 ## 📊 8. Análisis de Resultados e Interpretación Comercial
 
+### Dashboard 1: Visión Estratégica 360° (6 Gráficos de Modelado)
 ![Dashboard Animado 16:9 de Machine Learning](dashboard_machine_learning_ventas_16_9.gif)
 
 *Vista estática en alta resolución (300 DPI):*
 ![Dashboard Ejecutivo 16:9 de Machine Learning](dashboard_machine_learning_ventas_16_9.png)
+
+---
+
+### Dashboard 2: Diagnóstico Estadístico Avanzado, Explicabilidad (XAI) & Elasticidad (6 Gráficos de Evaluación)
+![Dashboard 2 Animado 16:9 de Machine Learning](dashboard_avanzado_machine_learning_16_9.gif)
+
+*Vista estática en alta resolución (300 DPI):*
+![Dashboard 2 Ejecutivo 16:9 de Machine Learning](dashboard_avanzado_machine_learning_16_9.png)
 
 ```mermaid
 graph LR
