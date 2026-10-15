@@ -319,8 +319,22 @@ python 06_dashboard_storytelling_ml.py
 
 ---
 
+### ▶️ Ejecución 07: Dashboard Dinámico Animado (.GIF) en Formato 16:9
+```bash
+python 07_dashboard_animado_gif.py
+```
+- **Comportamiento:**
+  - Genera una simulación animada progresiva de aprendizaje automático en tiempo real.
+  - Los datos van ingresando al lienzo, convergen la línea de regresión, los centroides de clustering, el auto-etiquetado de pedidos por IA, el mapa de calor de promociones por refuerzo, la detección de anomalías y las barras de retorno.
+  - Exporta automáticamente un archivo **GIF optimizado y ligero (~0.9 MB)**: `dashboard_machine_learning_ventas_16_9.gif`, ideal para presentaciones ejecutivas, web y GitHub.
+
+---
+
 ## 📊 8. Análisis de Resultados e Interpretación Comercial
 
+![Dashboard Animado 16:9 de Machine Learning](dashboard_machine_learning_ventas_16_9.gif)
+
+*Vista estática en alta resolución (300 DPI):*
 ![Dashboard Ejecutivo 16:9 de Machine Learning](dashboard_machine_learning_ventas_16_9.png)
 
 ```mermaid
