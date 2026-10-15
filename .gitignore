@@ -1,0 +1,27 @@
+# Entornos virtuales
+.venv/
+venv/
+env/
+ENV/
+
+# Python cache y compilados
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Archivos comprimidos de backup
+*.rar
+*.zip
+*.7z
+
+# Entornos y configuración de editores
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs y temporales
+*.log
+.DS_Store
+Thumbs.db
