@@ -308,7 +308,20 @@ python 05_autoencoder_anomalias.py
 
 ---
 
+### ▶️ Ejecución 06: Dashboard Analítico 360° en Lienzo 16:9 (Storytelling Ejecutivo)
+```bash
+python 06_dashboard_storytelling_ml.py
+```
+- **Comportamiento:**
+  - Ejecuta e integra los 5 modelos de Machine Learning simultáneamente.
+  - Genera un lienzo panorámico **16:9** en ultra alta resolución (300 DPI) con **6 gráficos analíticos integrados** y storytelling ejecutivo en cada cuadrante.
+  - Exporta automáticamente el archivo de imagen: `dashboard_machine_learning_ventas_16_9.png`.
+
+---
+
 ## 📊 8. Análisis de Resultados e Interpretación Comercial
+
+![Dashboard Ejecutivo 16:9 de Machine Learning](dashboard_machine_learning_ventas_16_9.png)
 
 ```mermaid
 graph LR
