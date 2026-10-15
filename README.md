@@ -357,9 +357,52 @@ python 09_generador_maestro_dashboards_gif.py
 
 ---
 
+### ▶️ Ejecución 10: Pipeline Industrial de Ingeniería de Datos, BI & ML (Suite Completa de 20 Gráficos Animados en 3 Hojas 16:9)
+```bash
+python 10_generador_maestro_pipeline_bi_ml_animado_gif.py
+```
+- **Comportamiento:**
+  - **Pipeline End-to-End Todo-en-Uno:** Sintetiza 1,000 transacciones auditadas con feature engineering de márgenes, cuotas y cumplimiento comercial.
+  - **20 Gráficos Animados Individualmente:** Repartidos en 3 tableros ejecutivos en alta definición (16:9):
+    1. **Hoja 1 (KPIs Comerciales - 4×2):** Ventas mensuales comparadas por año, condición de pago (Pie Chart), Top 8 productos, ventas por región, ventas por vendedor, % margen promedio, % cumplimiento de metas y participación territorial (Donut Chart).
+    2. **Hoja 2 (Estadísticos & Machine Learning - 3×2):** Histograma de montos, boxplot por región, matriz de correlación de Pearson, regresión lineal multivariable (Mes + Región), matriz de confusión con Random Forest y clustering K-Means de clientes con centroides.
+    3. **Hoja 3 (Metas & Cumplimiento - 3×2):** Barras dobles agrupadas (Meta vs Monto), histograma de % cumplimiento, cumplimiento por región, cumplimiento por categoría, scatter % Margen vs % Cumplimiento, y heatmap de cumplimiento mensual por territorio (12 meses × 4 regiones).
+  - **Exportables:** Genera cada hoja en `.gif` animado y `.png` (300 DPI Ultra HD), más la **Suite Maestra Todo-en-Uno** `dashboard_10_master_pipeline_completo_16_9.gif` (2.91 MB) con transición continua y el dataset exportado `pipeline_transaccional_bi_ml_1000.xlsx`.
+
+---
+
 ## 📊 8. Análisis de Resultados e Interpretación Comercial
 
-### 👑 Suite Maestra Completa (12 Gráficos Combinados en Bucle Continuo)
+### 🌟 Suite Maestra del Pipeline 10 (20 Gráficos Animados en Bucle Continuo)
+![Suite Maestra Pipeline 10 16:9](dashboard_10_master_pipeline_completo_16_9.gif)
+
+---
+
+### Hoja 1: Tablero de KPIs Comerciales (8 Gráficos, Matriz 4×2)
+![Hoja 1 Animada 16:9](dashboard_10_hoja1_kpis_comerciales_16_9.gif)
+
+*Vista estática en alta resolución (300 DPI):*
+![Hoja 1 Estática 16:9](dashboard_10_hoja1_kpis_comerciales_16_9.png)
+
+---
+
+### Hoja 2: Estadísticos & Machine Learning (6 Gráficos, Matriz 3×2)
+![Hoja 2 Animada 16:9](dashboard_10_hoja2_modelos_ml_16_9.gif)
+
+*Vista estática en alta resolución (300 DPI):*
+![Hoja 2 Estática 16:9](dashboard_10_hoja2_modelos_ml_16_9.png)
+
+---
+
+### Hoja 3: Metas & Cumplimiento (6 Gráficos, Matriz 3×2)
+![Hoja 3 Animada 16:9](dashboard_10_hoja3_metas_cumplimiento_16_9.gif)
+
+*Vista estática en alta resolución (300 DPI):*
+![Hoja 3 Estática 16:9](dashboard_10_hoja3_metas_cumplimiento_16_9.png)
+
+---
+
+### 👑 Suite Maestra Completa Módulo 09 (12 Gráficos Combinados en Bucle Continuo)
 ![Suite Maestra Completa 16:9](dashboard_master_suite_completa_16_9.gif)
 
 ---
