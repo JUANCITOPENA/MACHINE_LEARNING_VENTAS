@@ -342,11 +342,27 @@ python 08_dashboard_avanzado_animado_gif.py
     4. *Curva de Aprendizaje y Convergencia de Recompensa Q-Learning* (fases de Exploración vs. Explotación).
     5. *Explicabilidad Forense (XAI)* contrastando clientes normales vs. anomalías (picos de 3.5x en montos y 3.8x en devoluciones).
     6. *Curva de Elasticidad Precio-Demanda e Ingreso Óptimo* con delimitación de la zona de destrucción de margen ($>25\%$).
-  - Exporta simultáneamente la versión animada `dashboard_avanzado_machine_learning_16_9.gif` (0.73 MB) y la versión estática Ultra HD `dashboard_avanzado_machine_learning_16_9.png` (300 DPI).
+  - Exporta simultáneamente la versión animada `dashboard_avanzado_machine_learning_16_9.gif` (0.81 MB) y la versión estática Ultra HD `dashboard_avanzado_machine_learning_16_9.png` (300 DPI).
+
+---
+
+### ▶️ Ejecución 09: Generador Maestro Unificado (Suite Completa de 12 Gráficos en un Solo Script)
+```bash
+python 09_generador_maestro_dashboards_gif.py
+```
+- **Comportamiento:**
+  - **Script Todo-en-Uno:** Carga y entrena todos los modelos una única vez en memoria para máxima velocidad.
+  - Genera automáticamente los dos dashboards independientes (Dashboard 1 y Dashboard 2) tanto en versión animada `.gif` como estática `.png` (300 DPI).
+  - Genera adicionalmente la **Suite Maestra Combinada** `dashboard_master_suite_completa_16_9.gif` (1.66 MB), la cual reproduce secuencialmente el Dashboard 1 y transiciona fluidamente hacia el Dashboard 2, creando una presentación ejecutiva continua de 12 gráficos.
 
 ---
 
 ## 📊 8. Análisis de Resultados e Interpretación Comercial
+
+### 👑 Suite Maestra Completa (12 Gráficos Combinados en Bucle Continuo)
+![Suite Maestra Completa 16:9](dashboard_master_suite_completa_16_9.gif)
+
+---
 
 ### Dashboard 1: Visión Estratégica 360° (6 Gráficos de Modelado)
 ![Dashboard Animado 16:9 de Machine Learning](dashboard_machine_learning_ventas_16_9.gif)
